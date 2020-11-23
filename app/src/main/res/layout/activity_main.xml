@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:id="@+id/linearLay"
+            android:layout_margin="15dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_with_white_circle"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attendance Report"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Campus Name"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:id="@+id/mainLayout">
+
+            </TableLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</layout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:id="@+id/table"
+    android:background="@color/black"
+    >
+    <TableRow>
+        <TextView android:text="S.No"  android:layout_gravity="center" android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:text="Roll Number"  android:layout_gravity="center" android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:text="Name"  android:layout_gravity="center" android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:text="Attendance in"  android:layout_gravity="center" android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:text="Attendance out"  android:layout_gravity="center" android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold"/>
+
+    </TableRow>
+
+</TableLayout>
